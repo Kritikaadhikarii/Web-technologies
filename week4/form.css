@@ -1,0 +1,29 @@
+h1{
+    font-size: 60px;
+    background-color: rgb(163, 195, 238);
+    border-radius: 3cm;
+    text-align: center;
+    color: brown;
+}
+
+nav{
+    font-size: 22px;
+    background-color: rgb(243, 229, 191);
+    border-radius: 5%;
+
+}
+
+button{
+    color: brown;
+}
+
+form{
+    text-align: center;
+    color: darkred;
+    border-radius: 2cm;
+}
+
+table{
+    background-color: rgb(231, 216, 211);
+
+}
