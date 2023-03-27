@@ -1,0 +1,22 @@
+h1{
+    color: salmon;
+    background-color: aquamarine;
+    border-radius: 10%;
+    border-color: antiquewhite;
+    text-align: center;
+}
+
+p{
+    background-color: rgb(230, 215, 223);
+    color-interpolation-filters: linearRGB;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+img{
+
+    width: 400px;
+    height: 400px;
+
+}
