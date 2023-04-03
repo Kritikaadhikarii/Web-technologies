@@ -1,39 +1,49 @@
+/* *{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
 h1{
     color: salmon;
     background-color: aquamarine;
-    border-radius: 10%;
+    border-radius: 3cm;
     border-color: antiquewhite;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #p1{
     background-color: rgb(236, 186, 213);
     color-interpolation-filters: linearRGB;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-style: italic;
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Pacifico', cursive;
 
 }
 
-#p2{
+.p2{
     background-color: rgb(158, 235, 215);
     color-interpolation-filters: linearRGB;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-style: italic;
 
 }
 
-#p3{
+.p3{
     background-color: rgb(228, 238, 141);
     color-interpolation-filters: linearRGB;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-style: italic;
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Pacifico', cursive;
 
 }
 
-#p4{
+.p4{
     background-color: rgb(243, 193, 147);
     color-interpolation-filters: linearRGB;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-style: italic;
 
 }
@@ -43,5 +53,16 @@ img{
     width: 400px;
     height: 400px;
 
+}
 
+.p3:hover{
+    background-color: chocolate;
+    color: rgb(125, 204, 94);
+}
+
+
+
+
+img[alt]{
+    color: aqua;
 }
