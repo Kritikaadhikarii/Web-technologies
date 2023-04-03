@@ -14,7 +14,7 @@
             font-size: 100px;
             
             border-style: dotted;
-            width: fit-content;
+            display: inline-block;
             text-align: center;
 
         }
@@ -47,12 +47,31 @@
         a:visited{
             color: red
         }
+
+        input:checked{
+            outline: 3px dotted rgb(22, 202, 193);
+
+        }
+
+
+
     </style>
 </head>
 <body>
    <h1>Week 6</h1>
    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis omnis illo ad rerum, consequatur nostrum reiciendis. Quidem libero, ipsa consequatur explicabo repellat delectus, quas ducimus quo, cupiditate ut aspernatur harum.</p>
    <a href="position.html">Index</a>
+   
+   <form>
+    <p>Choose your favorite programming language:</p>
+    <label><input name="origin" type="radio" value="Python" checked>Python</label>
+    <br>
+    <label><input name="origin" type="radio" value="Cprogramming" checked>Cprogramming</label>
+    <br>
+    <label><input name="origin" type="radio" value="Java" checked>Java</label>
     
+   </form>
+
+
 </body>
 </html>
