@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Position</title>
+</head>
+    <style>
+
+        .parent{
+            width: 80%;
+            height: 1000vh;
+            background-color: rgb(205, 214, 233);
+            border: 2px dotted red;
+
+        }
+
+        .box{
+            width: 300px;
+            height:250px;
+            border:1px sandybrown
+        }
+
+        .box1{
+            background-color: rgb(130, 207, 149);
+            position: static;
+        }
+
+        .box2{
+            background-color: aquamarine;
+            /* position: relative ;
+            left: 150px;
+            top:100px; */
+        }
+
+        .box3{
+            background-color: rgb(236, 159, 104);
+            position: absolute;
+            left: 10px;
+        }
+
+        .box4{
+            background-color: darkgray;
+        }
+
+        .box5{
+            background-color: rgb(240, 77, 110);
+        }
+
+    </style>
+
+<body>
+    <div class="parent">
+
+        <div class="box box1">I am static</div>
+        <div class="box box2">I am relative</div>
+        <div class="box box3">I am absolute</div>
+        <div class="box box4">I am fixed</div>
+        <div class="box box5">I am sticky</div>
+
+    </div>
+
+</body>
+</html>
