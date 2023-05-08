@@ -59,6 +59,32 @@
         const n = prompt("What's your name: ");
         console.log(n);
 
+        age1 = prompt("What's your age: ");
+        if(age1>0){
+            alert("valid age");
+        }else{
+            alert("invalid age");
+        }
+
+        console.log(age1);
+
+
+
+        age2 = prompt("What's your age: ");
+        if(age2>0 && age2<=12){
+            alert("infant");
+        }else if(age2>13 && age2<=19){
+         alert("teenager");
+        }else if(age2>20 && age2<=50){
+            alert("adult");
+        }else if(age2>50){
+            alert("old");
+        }else if(age2<0){
+            alert("Invalid");
+        }
+
+        console.log(age2);
+
     </script>
 </body>
 </html>
