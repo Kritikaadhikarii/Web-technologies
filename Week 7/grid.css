@@ -1,0 +1,31 @@
+.grid{
+    width: 100%;
+    border: 3px solid rgb(243, 247, 19);
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px;
+}
+
+.box1{
+    background-color: rgb(192, 214, 214);
+}
+
+.box2{
+    background-color: rgb(230, 186, 91);
+}
+
+.box3{
+    background-color: rgb(155, 223, 146);
+}
+
+.box4{
+    background-color: rgb(214, 223, 100);
+}
+
+.box5{
+    background-color: rgb(226, 154, 133);
+}
+
+.box6{
+    background-color: rgb(131, 224, 204);
+}
