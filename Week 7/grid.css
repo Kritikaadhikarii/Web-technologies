@@ -1,9 +1,13 @@
 .grid{
     width: 100%;
-    border: 3px solid rgb(243, 247, 19);
+    border: 5px solid rgb(243, 247, 19);
     display: grid;
-    grid-template-columns: 250px 250px 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 250px 250px 250px; /////250px is height, doesnt fully utilize all space, but fr utilizes all space//// */
     grid-template-rows: 250px 250px;
+    grid-column-gap:10px;
+    grid-row-gap: 10px;
+
 }
 
 .box1{

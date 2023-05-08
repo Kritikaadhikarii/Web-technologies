@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS units</title>
+
+    <style>
+        *{
+            margin: 20px;
+            padding: 20px;
+        }
+
+
+
+        #parent{
+            width: 600px;
+            height: 600px;
+            background-color: rgb(228, 199, 173);  
+            border-radius: 5%;
+        }
+
+
+
+
+        div{
+            width: 300%;
+            height: 300%;
+            background-color: rgb(211, 224, 244);
+            color: chocolate;
+            font-size: 2em;
+            border-radius: 5%;
+        } 
+
+
+        body{
+            background-image: url(4vu8ejqj.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        :root{
+
+            --back: rgb(234, 232, 161);
+        }
+
+        body{
+            background-color: var(--back);
+        }
+
+        h1{
+            background-color: rgb(207, 162, 103);
+            text-align: center;
+            text-transform: uppercase;
+            color: brown;
+            text-shadow: 3px 3px rgb(189, 211, 220);
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+
+    <h1>Text Shadow</h1>
+
+<div id = "parent">
+
+    <div>
+
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam sint dignissimos facilis alias dolore! Fugit mollitia ex non, ratione voluptas delectus rerum modi. Consequatur necessitatibus amet quos ea tempore debitis odio, incidunt ab saepe numquam perspiciatis earum, officiis laudantium? Suscipit, esse qui soluta eveniet a explicabo cumque cum praesentium sequi.
+    
+    </div>
+</div>
+</body>
+</html>
