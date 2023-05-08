@@ -56,34 +56,63 @@
         //output:
         //{Bereft: 'Deprived of or lacking', regnant: 'exercising power or authority', terpsichorean: 'a performer who dances professionally'}
          
-        const n = prompt("What's your name: ");
-        console.log(n);
+        // const n = prompt("What's your name: ");
+        // console.log(n);
 
-        age1 = prompt("What's your age: ");
-        if(age1>0){
-            alert("valid age");
-        }else{
-            alert("invalid age");
+        // age1 = prompt("What's your age: ");
+        // if(age1>0){
+        //     alert("valid age");
+        // }else{
+        //     alert("invalid age");
+        // }
+
+        // console.log(age1);
+
+
+
+        // age2 = prompt("What's your age: ");
+        // if(age2>0 && age2<=12){
+        //     alert("infant");
+        // }else if(age2>13 && age2<=19){
+        //  alert("teenager");
+        // }else if(age2>20 && age2<=50){
+        //     alert("adult");
+        // }else if(age2>50){
+        //     alert("old");
+        // }else if(age2<0){
+        //     alert("Invalid");
+        // }
+
+        // console.log(age2);
+
+        // for(i=0;i<=100;i++){
+        //     console.log(i);
+        // }
+
+        //code for sum
+        let sumof100 = 0;
+        for (let i = 0; i <= 100; i++) {
+          sumof100 += i;
+        }
+        console.log(sumof100);
+
+// code for sum
+        let total = 0;
+        function sum(a,b){
+            total= a+ b;
+            return total;
         }
 
-        console.log(age1);
+        console.log(sum(2,3));
 
-
-
-        age2 = prompt("What's your age: ");
-        if(age2>0 && age2<=12){
-            alert("infant");
-        }else if(age2>13 && age2<=19){
-         alert("teenager");
-        }else if(age2>20 && age2<=50){
-            alert("adult");
-        }else if(age2>50){
-            alert("old");
-        }else if(age2<0){
-            alert("Invalid");
+        // for area of circle
+        let result = 0;
+        function area(a){
+            result=3.1415*a*a
+            return result;
         }
+        console.log(area(3));
 
-        console.log(age2);
 
     </script>
 </body>
